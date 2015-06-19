@@ -5,10 +5,6 @@
 #include <algorithm>
 using namespace std;
 
-int sum(int a, int b) {
-  return a+b;
-}
-
 int main() {
   int n;
   unsigned long sum = 0, value;

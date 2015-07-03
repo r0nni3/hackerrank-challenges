@@ -7,6 +7,7 @@ def pile(n, sL):
 			current = int(sL.pop(0))
 		else: 
 			current = int(sL.pop())
+		
 		if first:
 			vpile.insert(0, current)
 			first = False
